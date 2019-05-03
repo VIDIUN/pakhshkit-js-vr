@@ -1,5 +1,5 @@
 // @flow
-import {registerPlugin} from 'playkit-js';
+import {registerPlugin} from 'pakhshkit-js';
 import {Vr} from './vr';
 
 declare var __VERSION__: string;

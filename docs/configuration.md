@@ -8,7 +8,7 @@ var config = {
     }
   }
 };
-var player = KalturaPlayer.setup(config);
+var player = VidiunPlayer.setup(config);
 ```
 
 #### Configuration Structure  

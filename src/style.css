@@ -1,8 +1,8 @@
-.playkit-vr-video {
+.pakhshkit-vr-video {
   display: none;
 }
 
-.playkit-vr-canvas {
+.pakhshkit-vr-canvas {
   position: absolute;
   top: 0;
   bottom: 0;
