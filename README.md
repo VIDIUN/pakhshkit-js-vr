@@ -1,11 +1,11 @@
-# PlayKit JS VR - VR plugin for the [PlayKit JS Player]
+# PakhshKit JS VR - VR plugin for the [PakhshKit JS Player]
 
-[![Build Status](https://travis-ci.org/kaltura/playkit-js-vr.svg?branch=master)](https://travis-ci.org/kaltura/playkit-js-vr)
+[![Build Status](https://travis-ci.org/vidiun/pakhshkit-js-vr.svg?branch=master)](https://travis-ci.org/vidiun/pakhshkit-js-vr)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![](https://img.shields.io/npm/v/@playkit-js/playkit-js-vr/latest.svg)](https://www.npmjs.com/package/@playkit-js/playkit-js-vr)
-[![](https://img.shields.io/npm/v/@playkit-js/playkit-js-vr/canary.svg)](https://www.npmjs.com/package/@playkit-js/playkit-js-vr/v/canary)
+[![](https://img.shields.io/npm/v/@pakhshkit-js/pakhshkit-js-vr/latest.svg)](https://www.npmjs.com/package/@pakhshkit-js/pakhshkit-js-vr)
+[![](https://img.shields.io/npm/v/@pakhshkit-js/pakhshkit-js-vr/canary.svg)](https://www.npmjs.com/package/@pakhshkit-js/pakhshkit-js-vr/v/canary)
 
-PlayKit JS VR is written in [ECMAScript6], statically analysed using [Flow] and transpiled in ECMAScript5 using [Babel].
+PakhshKit JS VR is written in [ECMAScript6], statically analysed using [Flow] and transpiled in ECMAScript5 using [Babel].
 
 [flow]: https://flow.org/
 [ecmascript6]: https://github.com/ericdouglas/ES6-Learning#articles--tutorials
@@ -15,9 +15,9 @@ PlayKit JS VR is written in [ECMAScript6], statically analysed using [Flow] and 
 
 ### Prerequisites
 
-The plugin requires [PlayKit JS Player] to be loaded first.
+The plugin requires [PakhshKit JS Player] to be loaded first.
 
-[playkit js player]: https://github.com/kaltura/playkit-js
+[pakhshkit js player]: https://github.com/vidiun/pakhshkit-js
 
 ### Installing
 
@@ -26,8 +26,8 @@ First, clone and run [yarn] to install dependencies:
 [yarn]: https://yarnpkg.com/lang/en/
 
 ```
-git clone https://github.com/kaltura/playkit-js-vr.git
-cd playkit-js-vr
+git clone https://github.com/vidiun/pakhshkit-js-vr.git
+cd pakhshkit-js-vr
 yarn install
 ```
 
@@ -44,8 +44,8 @@ yarn run build
 Finally, add the bundle as a script tag in your page, and initialize the player
 
 ```html
-<script type="text/javascript" src="/PATH/TO/FILE/playkit.js"></script>                     <!--PlayKit player-->
-<script type="text/javascript" src="/PATH/TO/FILE/playkit-vr.js"></script>                 <!--PlayKit VR plugin-->
+<script type="text/javascript" src="/PATH/TO/FILE/pakhshkit.js"></script>                     <!--PakhshKit player-->
+<script type="text/javascript" src="/PATH/TO/FILE/pakhshkit-vr.js"></script>                 <!--PakhshKit VR plugin-->
 <div id="player-placeholder" style="height:360px; width:640px">
 <script type="text/javascript">
 var playerContainer = document.querySelector("#player-placeholder");
@@ -58,7 +58,7 @@ var config = {
  }
  ...
 };
-var player = playkit.core.loadPlayer(config);
+var player = pakhshkit.core.loadPlayer(config);
 playerContainer.appendChild(player.getView());
 player.play();
 </script>
@@ -104,7 +104,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/kaltura/playkit-js-vr/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/vidiun/pakhshkit-js-vr/tags).
 
 ## License
 

@@ -1,5 +1,5 @@
 // @flow
-import {BasePlugin, Error as PKError, FakeEvent, Utils} from 'playkit-js';
+import {BasePlugin, Error as PKError, FakeEvent, Utils} from 'pakhshkit-js';
 import * as THREE from 'three';
 import {CustomVideoTexture} from './custom-video-texture';
 import {StereoEffect} from './stereo-effect';
@@ -11,21 +11,21 @@ import './style.css';
  * @type {string}
  * @const
  */
-const VIDEO_TAG_CLASS: string = 'playkit-vr-video';
+const VIDEO_TAG_CLASS: string = 'pakhshkit-vr-video';
 
 /**
  * The VR canvas class.
  * @type {string}
  * @const
  */
-const CANVAS_VR_CLASS: string = 'playkit-vr-canvas';
+const CANVAS_VR_CLASS: string = 'pakhshkit-vr-canvas';
 
 /**
  * The overlay action class.
  * @type {string}
  * @const
  */
-const OVERLAY_ACTION_CLASS: string = 'playkit-overlay-action';
+const OVERLAY_ACTION_CLASS: string = 'pakhshkit-overlay-action';
 
 /**
  * Time interval (in milliseconds) to try ubtaining the vr canvas size

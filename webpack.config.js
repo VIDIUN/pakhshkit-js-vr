@@ -29,12 +29,12 @@ if (PROD) {
 module.exports = {
   context: __dirname + '/src',
   entry: {
-    'playkit-vr': 'index.js'
+    'pakhshkit-vr': 'index.js'
   },
   output: {
     path: __dirname + '/dist',
     filename: '[name].js',
-    library: ['KalturaPlayer', 'plugins', 'vr'],
+    library: ['VidiunPlayer', 'plugins', 'vr'],
     libraryTarget: 'umd',
     devtoolModuleFilenameTemplate: './vr/[resource-path]'
   },
@@ -92,11 +92,11 @@ module.exports = {
     modules: [path.resolve(__dirname, 'src'), 'node_modules']
   },
   externals: {
-    'playkit-js': {
-      commonjs: 'playkit-js',
-      commonjs2: 'playkit-js',
-      amd: 'playkit-js',
-      root: ['KalturaPlayer', 'core']
+    'pakhshkit-js': {
+      commonjs: 'pakhshkit-js',
+      commonjs2: 'pakhshkit-js',
+      amd: 'pakhshkit-js',
+      root: ['VidiunPlayer', 'core']
     }
   }
 };

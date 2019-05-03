@@ -1,7 +1,7 @@
 {
-  "name": "@playkit-js/playkit-js-vr",
+  "name": "@pakhshkit-js/pakhshkit-js-vr",
   "version": "1.2.0",
-  "main": "dist/playkit-vr.js",
+  "main": "dist/pakhshkit-vr.js",
   "scripts": {
     "clean": "rm -rf ./dist",
     "prebuild": "npm run clean",
@@ -72,7 +72,7 @@
     "lint-staged": "7.0.5",
     "mocha": "^3.2.0",
     "mocha-cli": "^1.0.1",
-    "playkit-js": "https://github.com/kaltura/playkit-js.git#master",
+    "pakhshkit-js": "https://github.com/vidiun/pakhshkit-js.git#master",
     "prettier": "^1.13.5",
     "sinon": "^2.0.0",
     "sinon-chai": "^2.8.0",
@@ -83,27 +83,27 @@
     "webpack-dev-server": "latest"
   },
   "peerDependencies": {
-    "playkit-js": "https://github.com/kaltura/playkit-js.git#master"
+    "pakhshkit-js": "https://github.com/vidiun/pakhshkit-js.git#master"
   },
   "keywords": [
     "vr",
     "360",
-    "kaltura",
+    "vidiun",
     "player",
-    "playkit-js",
-    "playkit-js-vr",
+    "pakhshkit-js",
+    "pakhshkit-js-vr",
     "html5 player"
   ],
   "license": "AGPL-3.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaltura/playkit-js-vr.git"
+    "url": "git+https://github.com/vidiun/pakhshkit-js-vr.git"
   },
   "bugs": {
-    "url": "https://github.com/kaltura/playkit-js-vr/issues"
+    "url": "https://github.com/vidiun/pakhshkit-js-vr/issues"
   },
-  "homepage": "https://github.com/kaltura/playkit-js-vr#readme",
-  "kcc": {
-    "name": "playkit-vr"
+  "homepage": "https://github.com/vidiun/pakhshkit-js-vr#readme",
+  "vcc": {
+    "name": "pakhshkit-vr"
   }
 }
