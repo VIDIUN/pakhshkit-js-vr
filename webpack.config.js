@@ -34,7 +34,7 @@ module.exports = {
   output: {
     path: __dirname + '/dist',
     filename: '[name].js',
-    library: ['KalturaPlayer', 'plugins', 'vr'],
+    library: ['VidiunPlayer', 'plugins', 'vr'],
     umdNamedDefine: true,
     libraryTarget: 'umd',
     devtoolModuleFilenameTemplate: './vr/[resource-path]'
